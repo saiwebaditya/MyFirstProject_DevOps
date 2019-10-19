@@ -23,7 +23,7 @@ node{
         }
     }
     stage('Test Addressbook'){
-        withMaven(maven: 'Mymaven'){
+        withMaven(maven: 'MyMaven'){
             sh 'mvn test'
         }
     }
