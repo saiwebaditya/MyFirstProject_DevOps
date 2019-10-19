@@ -2,7 +2,6 @@
 import hudson.model.*
 import hudson.EnvVars
 import java.net.URL
-
 node{
     stage('Git Checkout') {
         git 'https://github.com/saiwebaditya/DevOpsClassCodes.git'
