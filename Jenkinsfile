@@ -13,7 +13,7 @@ node{
       }
     }
     stage('Review Addressbook'){
-        withMaven(maven: 'Mymaven'){
+        withMaven(maven: 'MyMaven'){
             sh 'mvn pmd:pmd'
         }
     } 
